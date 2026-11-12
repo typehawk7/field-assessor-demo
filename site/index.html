@@ -26,6 +26,206 @@
 </head>
 <body>
     <canvas id="ComposeTarget"></canvas>
+    <script>
+        (function () {
+            var state = { phase: "idle", message: "", elapsedMs: 0, playingId: "", clips: [] };
+            var recorder = null;
+            var stream = null;
+            var chunks = [];
+            var startedAt = 0;
+            var pendingRoom = "Walk";
+            var player = null;
+
+            function mimeType() {
+                if (!window.MediaRecorder || !MediaRecorder.isTypeSupported) return "";
+                var types = ["audio/webm;codecs=opus", "audio/webm", "audio/ogg;codecs=opus", "audio/mp4"];
+                for (var i = 0; i < types.length; i++) {
+                    if (MediaRecorder.isTypeSupported(types[i])) return types[i];
+                }
+                return "";
+            }
+
+            function extension(type) {
+                if (type.indexOf("ogg") >= 0) return "ogg";
+                if (type.indexOf("mp4") >= 0 || type.indexOf("m4a") >= 0) return "m4a";
+                return "webm";
+            }
+
+            function stopTracks() {
+                if (!stream) return;
+                stream.getTracks().forEach(function (track) { track.stop(); });
+                stream = null;
+            }
+
+            function snapshot() {
+                var elapsed = state.phase === "recording" ? Math.max(0, Date.now() - startedAt) : state.elapsedMs;
+                return JSON.stringify({
+                    phase: state.phase,
+                    message: state.message,
+                    elapsedMs: elapsed,
+                    playingId: state.playingId,
+                    clips: state.clips.map(function (clip) {
+                        return {
+                            id: clip.id,
+                            name: clip.name,
+                            durationMs: clip.durationMs,
+                            createdLabel: clip.createdLabel,
+                            mime: clip.mime,
+                            fileName: clip.fileName
+                        };
+                    })
+                });
+            }
+
+            function fail(error) {
+                stopTracks();
+                recorder = null;
+                var name = error && error.name;
+                if (name === "NotAllowedError" || name === "PermissionDeniedError" || name === "SecurityError") {
+                    state.phase = "denied";
+                    state.message = "Microphone permission was denied. Allow the mic for this site, then try Record again. Microphone access needs HTTPS.";
+                } else if (name === "NotFoundError" || name === "DevicesNotFoundError") {
+                    state.phase = "error";
+                    state.message = "No microphone was found on this device.";
+                } else {
+                    state.phase = "error";
+                    state.message = "Could not start the microphone. " + ((error && error.message) || "");
+                }
+            }
+
+            function start(roomName) {
+                if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia || !window.MediaRecorder) {
+                    state.phase = "unsupported";
+                    state.message = "This browser cannot record from the microphone. Use a current Chrome, Edge, or Firefox on HTTPS.";
+                    return;
+                }
+                pendingRoom = roomName || "Walk";
+                state.phase = "starting";
+                state.message = "Waiting for the microphone…";
+                navigator.mediaDevices.getUserMedia({ audio: true }).then(function (next) {
+                    stream = next;
+                    chunks = [];
+                    var type = mimeType();
+                    recorder = type ? new MediaRecorder(next, { mimeType: type }) : new MediaRecorder(next);
+                    recorder.ondataavailable = function (event) {
+                        if (event.data && event.data.size) chunks.push(event.data);
+                    };
+                    recorder.onstop = function () {
+                        var blobType = (recorder && recorder.mimeType) || type || "audio/webm";
+                        var blob = new Blob(chunks, { type: blobType });
+                        var duration = Math.max(0, Date.now() - startedAt);
+                        var id = "clip-" + Date.now();
+                        var ext = extension(blobType);
+                        var stamp = new Date().toLocaleTimeString();
+                        state.clips.unshift({
+                            id: id,
+                            name: pendingRoom + " · " + stamp,
+                            durationMs: duration,
+                            createdLabel: stamp,
+                            mime: blobType,
+                            fileName: id + "." + ext,
+                            url: URL.createObjectURL(blob)
+                        });
+                        stopTracks();
+                        recorder = null;
+                        state.phase = "idle";
+                        state.elapsedMs = 0;
+                        state.message = "";
+                    };
+                    recorder.start();
+                    startedAt = Date.now();
+                    state.phase = "recording";
+                    state.message = "";
+                }).catch(fail);
+            }
+
+            function stop() {
+                if (recorder && recorder.state !== "inactive") recorder.stop();
+            }
+
+            function find(id) {
+                for (var i = 0; i < state.clips.length; i++) {
+                    if (state.clips[i].id === id) return state.clips[i];
+                }
+                return null;
+            }
+
+            function play(id) {
+                var clip = find(id);
+                if (!clip) return;
+                if (player) {
+                    player.pause();
+                    player = null;
+                }
+                player = new Audio(clip.url);
+                state.playingId = id;
+                player.onended = function () { state.playingId = ""; };
+                var pending = player.play();
+                if (pending && pending.catch) {
+                    pending.catch(function () { state.playingId = ""; });
+                }
+            }
+
+            function download(id) {
+                var clip = find(id);
+                if (!clip) return;
+                var link = document.createElement("a");
+                link.href = clip.url;
+                link.download = clip.fileName;
+                document.body.appendChild(link);
+                link.click();
+                link.remove();
+            }
+
+            function remove(id) {
+                for (var i = 0; i < state.clips.length; i++) {
+                    if (state.clips[i].id === id) {
+                        URL.revokeObjectURL(state.clips[i].url);
+                        state.clips.splice(i, 1);
+                        break;
+                    }
+                }
+                if (state.playingId === id) state.playingId = "";
+            }
+
+            function pick() {
+                var input = document.createElement("input");
+                input.type = "file";
+                input.accept = "audio/*,.webm,.ogg,.mp3,.m4a,.wav";
+                input.onchange = function () {
+                    var file = input.files && input.files[0];
+                    if (!file) return;
+                    var id = "file-" + Date.now();
+                    var url = URL.createObjectURL(file);
+                    var clip = {
+                        id: id,
+                        name: file.name,
+                        durationMs: 0,
+                        createdLabel: new Date().toLocaleTimeString(),
+                        mime: file.type || "audio/*",
+                        fileName: file.name,
+                        url: url
+                    };
+                    state.clips.unshift(clip);
+                    var probe = new Audio(url);
+                    probe.onloadedmetadata = function () {
+                        if (isFinite(probe.duration)) clip.durationMs = Math.round(probe.duration * 1000);
+                    };
+                };
+                input.click();
+            }
+
+            window.__faAudio = {
+                start: start,
+                stop: stop,
+                play: play,
+                download: download,
+                remove: remove,
+                pick: pick,
+                snapshot: snapshot
+            };
+        })();
+    </script>
     <script src="./fieldAssessorDemo.js"></script>
 </body>
 </html>
