@@ -1,0 +1,1521 @@
+{
+  "demo_id": "chalk_flats_4518",
+  "property": {
+    "address": "4518 Chalk Flts, San Antonio, TX",
+    "sqft": 1650,
+    "wo_number": "50121",
+    "vendor": "Remodels & Renovations"
+  },
+  "totals": {
+    "estimated_total": 5368.0,
+    "tenant_charge_total": 335.0,
+    "owner_charge_total": 1989.0,
+    "approved_total": 2324.0,
+    "note": "Totals copied from Survey header row (Estimated Total / tenant / owner / approved columns). Report assessment fee ($149) is included in the sheet estimate."
+  },
+  "report_assessment": {
+    "tags": [
+      "PRO"
+    ],
+    "description": "Report and Photo Assessment",
+    "proposal": "Tru Asset Management's Turnover Survey of Property Condition, Recommendations and Pricing with Picture Album and Vendor Proposals.",
+    "estimate": 149.0,
+    "tenant_charge": null,
+    "owner_charge": null,
+    "approval": null
+  },
+  "rooms": [
+    {
+      "order": 1,
+      "name": "Front Yard",
+      "start": "00:08",
+      "end": "01:08",
+      "photos": [
+        "01_front_yard_01.jpg",
+        "01_front_yard_02.jpg"
+      ],
+      "items": [
+        {
+          "tags": [
+            "NRM"
+          ],
+          "description": "Driveway and sidewalk \u2013 Dirty. Rec cleaning and pressure washing",
+          "proposal": "Pressure wash and clean (use chemicals)",
+          "estimate": 150.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        },
+        {
+          "tags": [
+            "NOT"
+          ],
+          "description": "Yard \u2013 In good shape.",
+          "proposal": null,
+          "estimate": null,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": null,
+          "photos": []
+        },
+        {
+          "tags": [
+            "NOT"
+          ],
+          "description": "Property \u2013 Cleaned.",
+          "proposal": null,
+          "estimate": null,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": null,
+          "photos": []
+        },
+        {
+          "tags": [
+            "NRM"
+          ],
+          "description": "Front door \u2013 Wasp nest.",
+          "proposal": "Remove wasp nests",
+          "estimate": 15.0,
+          "tenant_charge": null,
+          "owner_charge": 15.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "NRM"
+          ],
+          "description": "Bird guard \u2013 Needs to be reinstalled over emergency condensate drain",
+          "proposal": "Reinstall",
+          "estimate": 10.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "name": "Backyard",
+      "start": "01:09",
+      "end": "02:37",
+      "photos": [
+        "02_backyard_01.jpg",
+        "02_backyard_02.jpg"
+      ],
+      "items": [
+        {
+          "tags": [
+            "NRM"
+          ],
+          "description": "Property \u2013 Additional wasp nests.",
+          "proposal": "Remove wasp nests",
+          "estimate": 45.0,
+          "tenant_charge": null,
+          "owner_charge": 45.0,
+          "approval": "Approved",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "name": "Entryway",
+      "start": "02:38",
+      "end": "04:49",
+      "photos": [
+        "03_entryway_01.jpg",
+        "03_entryway_02.jpg",
+        "03_entryway_03.jpg"
+      ],
+      "items": [
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Front door exterior \u2013 Scuffs and mismatched finish from old keypad.",
+          "proposal": "Paint front door exterior to match existing color",
+          "estimate": 80.0,
+          "tenant_charge": null,
+          "owner_charge": 80.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Front door interior minors scuffs and stains.",
+          "proposal": "Paint interior side front door",
+          "estimate": 60.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Wall 1 \u2013 Stains.",
+          "proposal": "Paint wall",
+          "estimate": 50.0,
+          "tenant_charge": null,
+          "owner_charge": 50.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Coat closet door \u2013 Minor scuffs and patchy finish.",
+          "proposal": "Paint both sides of door",
+          "estimate": 90.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        },
+        {
+          "tags": [
+            "NRM"
+          ],
+          "description": "Fire extinguisher \u2013 Remove.",
+          "proposal": "Remove and dispose",
+          "estimate": 10.0,
+          "tenant_charge": null,
+          "owner_charge": 10.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Wall 2 \u2013 Small scuffs throughout.",
+          "proposal": "Paint wall",
+          "estimate": 100.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Corner bead \u2013 Scuffs, scraped texture, and leading to garage hall.",
+          "proposal": "Repair corner bead and texture and paint arch/door way",
+          "estimate": 75.0,
+          "tenant_charge": null,
+          "owner_charge": 75.0,
+          "approval": "Approved",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "name": "Front Room",
+      "start": "04:50",
+      "end": "07:18",
+      "photos": [
+        "04_front_room_01.jpg",
+        "04_front_room_02.jpg",
+        "04_front_room_03.jpg"
+      ],
+      "items": [
+        {
+          "tags": [
+            "NRM"
+          ],
+          "description": "Ceiling fan \u2013 Noisy and vibrating, may need balancing or replacement.",
+          "proposal": "Balance ceiling fan, if unable to repair will notify office for replacement",
+          "estimate": 300.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Denied",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Wall 1 \u2013 Pin nail hole and minor scuffs and stains beneath window sill.",
+          "proposal": "Paint wall",
+          "estimate": 75.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "TBD",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Window sill \u2013 Scuffs and stains.",
+          "proposal": "Paint window sill",
+          "estimate": 25.0,
+          "tenant_charge": null,
+          "owner_charge": 25.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Wall 2 \u2013 Minor scuffs.",
+          "proposal": "Paint wall",
+          "estimate": 75.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Wall 3 \u2013 Minor scraped paint and scuffs.",
+          "proposal": "Paint wall",
+          "estimate": 75.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Wall 4 \u2013 Various pin nail holes and minor stains",
+          "proposal": "Paint wall",
+          "estimate": 75.0,
+          "tenant_charge": null,
+          "owner_charge": 75.0,
+          "approval": "Approved",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "name": "Kitchen",
+      "start": "07:19",
+      "end": "11:41",
+      "photos": [
+        "05_kitchen_01.jpg",
+        "05_kitchen_02.jpg",
+        "05_kitchen_03.jpg",
+        "05_kitchen_04.jpg"
+      ],
+      "items": [
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Upper cabinet door \u2013 Left of microwave, door damage with hole drilled through front finish.",
+          "proposal": "Fill holes and touch up as close as possible match",
+          "estimate": 15.0,
+          "tenant_charge": null,
+          "owner_charge": 15.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Pantry shelves \u2013 Minor scraped paint.",
+          "proposal": "Paint shelves",
+          "estimate": 75.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        },
+        {
+          "tags": [
+            "NRM"
+          ],
+          "description": "Pantry \u2013 Paint needs to be moved to garage.",
+          "proposal": "Move paint to garage",
+          "estimate": 0.0,
+          "tenant_charge": null,
+          "owner_charge": 0.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "NOT"
+          ],
+          "description": "Gas \u2013 Not on.",
+          "proposal": null,
+          "estimate": null,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": null,
+          "photos": []
+        },
+        {
+          "tags": [
+            "NRM"
+          ],
+          "description": "Oven door handle \u2013 Loose.",
+          "proposal": "Secure handle if unable to secure will notify pm",
+          "estimate": 25.0,
+          "tenant_charge": null,
+          "owner_charge": 25.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Countertops \u2013 Left of stove top are stained.",
+          "proposal": "cosmetic",
+          "estimate": null,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "TBD",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Island counter \u2013 Stained.",
+          "proposal": "Cosmetic",
+          "estimate": null,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "TBD",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Pony wall \u2013 Heavy scuffs and dark stains.",
+          "proposal": "Paint wall",
+          "estimate": 60.0,
+          "tenant_charge": 60.0,
+          "owner_charge": null,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "RVW",
+            "NRM"
+          ],
+          "description": "Garbage disposal \u2013 Jammed.",
+          "proposal": "Unjam disposal",
+          "estimate": 10.0,
+          "tenant_charge": 10.0,
+          "owner_charge": null,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "NOT"
+          ],
+          "description": "Dishwasher \u2013 Works.",
+          "proposal": null,
+          "estimate": null,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": null,
+          "photos": []
+        },
+        {
+          "tags": [
+            "NRM"
+          ],
+          "description": "Carbon monoxide detector \u2013 Found in bag, needs test and reinstallation.",
+          "proposal": "Test and reinstall",
+          "estimate": 20.0,
+          "tenant_charge": 20.0,
+          "owner_charge": null,
+          "approval": "Approved",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "name": "Living Room",
+      "start": "11:42",
+      "end": "13:04",
+      "photos": [
+        "06_living_room_01.jpg",
+        "06_living_room_02.jpg",
+        "06_living_room_03.jpg"
+      ],
+      "items": [
+        {
+          "tags": [
+            "NRM"
+          ],
+          "description": "Ceiling fan \u2013 Needs repair or replacement due to loud scraping on cowling.",
+          "proposal": "Balance ceiling fan, if unable to repair will notify office for replacement",
+          "estimate": 300.0,
+          "tenant_charge": null,
+          "owner_charge": 300.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Wall 1 \u2013 Scuffs, small gouge, pin nail holes, and large nail hole.",
+          "proposal": "Repair gouge, paint wall",
+          "estimate": 125.0,
+          "tenant_charge": null,
+          "owner_charge": 125.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Wall 2 \u2013 Scuffs, patchy finish, and TV mount.",
+          "proposal": "Remove tv mount, fill holes and paint wall",
+          "estimate": 125.0,
+          "tenant_charge": null,
+          "owner_charge": 125.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Wall 3 \u2013 Dark scuffs/stains and patchy finish.",
+          "proposal": "Paint wall",
+          "estimate": 100.0,
+          "tenant_charge": 100.0,
+          "owner_charge": null,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "NRM"
+          ],
+          "description": "Change out batteries from alarm panel",
+          "proposal": "Change out batteries from alarm panel",
+          "estimate": 30.0,
+          "tenant_charge": null,
+          "owner_charge": 30.0,
+          "approval": "Approved",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "name": "Hallway",
+      "start": "13:05",
+      "end": "13:44",
+      "photos": [
+        "07_hallway_01.jpg",
+        "07_hallway_02.jpg"
+      ],
+      "items": [
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Passageway walls \u2013 Minor scuffs",
+          "proposal": "Paint passage way walls",
+          "estimate": 150.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Passageway baseboards \u2013 Minor scuffs to touch up.",
+          "proposal": "Touch up baseboards",
+          "estimate": 20.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Bedroom 1 door passageway side \u2013 Minor scuffs.",
+          "proposal": "Paint exterior side of bedroom door",
+          "estimate": 45.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "name": "Bedroom 1",
+      "start": "13:45",
+      "end": "14:35",
+      "photos": [
+        "08_bedroom_1_01.jpg",
+        "08_bedroom_1_02.jpg"
+      ],
+      "items": [
+        {
+          "tags": [
+            "NRM"
+          ],
+          "description": "Ceiling fan \u2013 Noisy, needs repair or replacement.",
+          "proposal": "Balance ceiling fan, if unable to repair will notify office for replacement",
+          "estimate": 300.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Denied",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Wall 3 \u2013 Minor scuffs.",
+          "proposal": "Paint wall",
+          "estimate": 75.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Wall 4 \u2013 Large screw hole, patchy finish, and TV mount left on wall.",
+          "proposal": "Remove tv mount, fill holes and paint wall",
+          "estimate": 125.0,
+          "tenant_charge": null,
+          "owner_charge": 125.0,
+          "approval": "Approved",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "name": "Master Bathroom",
+      "start": "14:36",
+      "end": "18:05",
+      "photos": [
+        "09_master_bathroom_01.jpg",
+        "09_master_bathroom_02.jpg",
+        "09_master_bathroom_03.jpg",
+        "09_master_bathroom_04.jpg"
+      ],
+      "items": [
+        {
+          "tags": [
+            "RVW",
+            "NRM"
+          ],
+          "description": "Vanity light fixture \u2013 Needs three replacement globe style bulbs.",
+          "proposal": "Replace specialty bulbs",
+          "estimate": 25.0,
+          "tenant_charge": 25.0,
+          "owner_charge": null,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Wall 4 \u2013 Scuffs, stains, and pin nail hole.",
+          "proposal": "Paint wall",
+          "estimate": 75.0,
+          "tenant_charge": null,
+          "owner_charge": 75.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Walk-in closet door closet side \u2013 Scuffs and minor scraped paint.",
+          "proposal": "Paint closet side door",
+          "estimate": 45.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Walk-in closet walls \u2013 Stained",
+          "proposal": "Paint closet walls",
+          "estimate": 225.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        },
+        {
+          "tags": [
+            "NRM"
+          ],
+          "description": "Toilet seat \u2013 Stained, recommend replacement.",
+          "proposal": "Replace toilet seat",
+          "estimate": 25.0,
+          "tenant_charge": null,
+          "owner_charge": 25.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Toilet room wall 3 \u2013 Left of toilet, minor scuffs and stains.",
+          "proposal": "Paint wall",
+          "estimate": 50.0,
+          "tenant_charge": null,
+          "owner_charge": 50.0,
+          "approval": "Approved",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "name": "Bedroom 2",
+      "start": "18:06",
+      "end": "19:59",
+      "photos": [
+        "10_bedroom_2_01.jpg",
+        "10_bedroom_2_02.jpg"
+      ],
+      "items": [
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Bedroom 2 door hall side \u2013 Minor scuffs.",
+          "proposal": "Paint hall side door",
+          "estimate": 45.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Wall 2 \u2013 standard nail hole, minor scuffs, and stains.",
+          "proposal": "Fill nail hole and touch up",
+          "estimate": 75.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Wall 4 \u2013 Scuffs near baseboard and pin nail holes to fill and touch up.",
+          "proposal": "Paint wall",
+          "estimate": 75.0,
+          "tenant_charge": null,
+          "owner_charge": 75.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Closet shelves \u2013 Minor scuffs.",
+          "proposal": "Paint shelving",
+          "estimate": 75.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "name": "Hall Bathroom",
+      "start": "20:00",
+      "end": "21:02",
+      "photos": [
+        "11_hall_bathroom_01.jpg",
+        "11_hall_bathroom_02.jpg"
+      ],
+      "items": [
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Bathroom door bathroom side \u2013 scraped paint.",
+          "proposal": "Paint bathroom side door",
+          "estimate": 45.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "TBD",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Wall 1 \u2013 By towel rod, scuffs, stains, and scraped paint.",
+          "proposal": "Paint wall",
+          "estimate": 55.0,
+          "tenant_charge": null,
+          "owner_charge": 55.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Wall 3 \u2013 Above toilet, scuffs, stains, and pin nail hole.",
+          "proposal": "Paint wall",
+          "estimate": 55.0,
+          "tenant_charge": null,
+          "owner_charge": 55.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "NRM"
+          ],
+          "description": "Vanity sink cabinet lower shelf \u2013 Heavily stained, recommend refinishing.",
+          "proposal": "Can replace base or install vinyl liner ($125 or $75)",
+          "estimate": null,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Recommended",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Bathroom door hall side \u2013 scraped paint on edges of door",
+          "proposal": "Paint hall side of door",
+          "estimate": 45.0,
+          "tenant_charge": null,
+          "owner_charge": 45.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Bathroom door jamb \u2013 Large scuffs.",
+          "proposal": "Paint door jamb",
+          "estimate": 15.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "name": "Bedroom 3",
+      "start": "21:03",
+      "end": "23:43",
+      "photos": [
+        "12_bedroom_3_01.jpg",
+        "12_bedroom_3_02.jpg",
+        "12_bedroom_3_03.jpg"
+      ],
+      "items": [
+        {
+          "tags": [
+            "NRM"
+          ],
+          "description": "Ceiling fan \u2013 Making noise.",
+          "proposal": "Balance ceiling fan, if unable to repair will notify office for replacement",
+          "estimate": 300.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Denied",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Wall 1 \u2013 Scuffs, stains, and pin nail holes to fill and touch up.",
+          "proposal": "Paint wall",
+          "estimate": 75.0,
+          "tenant_charge": null,
+          "owner_charge": 75.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Wall 2 \u2013 Small gouges, pin nail holes, scuffs, and stains.",
+          "proposal": "Paint wall",
+          "estimate": 75.0,
+          "tenant_charge": null,
+          "owner_charge": 75.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Wall 3 \u2013 Scuffs, stains, and pin nail holes to fill and touch up.",
+          "proposal": "Paint wall",
+          "estimate": 75.0,
+          "tenant_charge": null,
+          "owner_charge": 75.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Closet door bedroom side \u2013 Minor scraped paint.",
+          "proposal": "Paint both sides of door",
+          "estimate": 50.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Closet door closet side \u2013 scraped paint.",
+          "proposal": "Included with above line item",
+          "estimate": null,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "TBD",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Closet walls \u2013 Minor scuffs.",
+          "proposal": "Paint walls",
+          "estimate": 150.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Wall 4 \u2013 scraped paint, scuffs, stains, and TV mount on wall.",
+          "proposal": "Remove tv mount, fill holes and paint wall",
+          "estimate": 100.0,
+          "tenant_charge": null,
+          "owner_charge": 100.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Bedroom 3 entry door hall side \u2013 scraped paint, scuffs, and stains.",
+          "proposal": "Paint hall side of door",
+          "estimate": 45.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Bedroom 3 entry door bedroom side \u2013 Large scuffs.",
+          "proposal": "Paint bedroom side of door",
+          "estimate": 45.0,
+          "tenant_charge": 45.0,
+          "owner_charge": null,
+          "approval": "Approved",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "name": "Garage Hallway",
+      "start": "23:44",
+      "end": "24:09",
+      "photos": [
+        "13_garage_hallway_01.jpg"
+      ],
+      "items": [
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Wall 2 \u2013 Behind garage door, scraped paper, scuffs, and stains.",
+          "proposal": "Paint wall",
+          "estimate": 60.0,
+          "tenant_charge": null,
+          "owner_charge": 60.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Wall 2 baseboard \u2013 Scuffs and stains.",
+          "proposal": "Paint baseboard",
+          "estimate": 20.0,
+          "tenant_charge": null,
+          "owner_charge": 20.0,
+          "approval": "Approved",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "name": "Laundry",
+      "start": "24:10",
+      "end": "24:59",
+      "photos": [
+        "14_laundry_01.jpg",
+        "14_laundry_02.jpg"
+      ],
+      "items": [
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Laundry room door hall side \u2013 scraped paint.",
+          "proposal": "Paint hall side of door",
+          "estimate": 30.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        },
+        {
+          "tags": [
+            "RVW",
+            "NRM"
+          ],
+          "description": "Fluorescent light \u2013 Needs one replacement bulb.",
+          "proposal": "Replace bulb",
+          "estimate": 35.0,
+          "tenant_charge": null,
+          "owner_charge": 35.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Wall 1 \u2013 Behind entry door, minor scuffs.",
+          "proposal": "Paint wall",
+          "estimate": 75.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "name": "Garage",
+      "start": "25:00",
+      "end": "25:52",
+      "photos": [
+        "15_garage_01.jpg",
+        "15_garage_02.jpg"
+      ],
+      "items": [
+        {
+          "tags": [
+            "FNS",
+            "RVW"
+          ],
+          "description": "Garage door hall side \u2013 Minor scuffs, stains, and pin nail holes.",
+          "proposal": "Paint hall side of door",
+          "estimate": 45.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        },
+        {
+          "tags": [
+            "FNS",
+            "NRM"
+          ],
+          "description": "Garage door garage side \u2013 Excessive scuffs and stains.",
+          "proposal": "Paint garage side of door",
+          "estimate": 45.0,
+          "tenant_charge": null,
+          "owner_charge": 45.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "NRM"
+          ],
+          "description": "Garage floor \u2013 Dirty, recommend cleaning and pressure washing.",
+          "proposal": "Can pressure wash however stains will not come up.",
+          "estimate": 75.0,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        },
+        {
+          "tags": [
+            "NOT"
+          ],
+          "description": "Garage walls \u2013 Unfinished, no sheetrock damage.",
+          "proposal": null,
+          "estimate": null,
+          "tenant_charge": null,
+          "owner_charge": null,
+          "approval": "Optional",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "name": "Attic",
+      "start": "25:53",
+      "end": "26:33",
+      "photos": [
+        "16_attic_01.jpg",
+        "16_attic_02.jpg"
+      ],
+      "items": [
+        {
+          "tags": [
+            "RVW",
+            "NRM"
+          ],
+          "description": "Attic light \u2013 One replacement bulb needed, LED very dim and failing.",
+          "proposal": "Replace bulb",
+          "estimate": 4.0,
+          "tenant_charge": null,
+          "owner_charge": 4.0,
+          "approval": "Approved",
+          "photos": []
+        },
+        {
+          "tags": [
+            "RVW",
+            "NRM"
+          ],
+          "description": "AC filter \u2013 Dirty Aprilair 1210.",
+          "proposal": "Replace filter",
+          "estimate": 75.0,
+          "tenant_charge": 75.0,
+          "owner_charge": null,
+          "approval": "Approved",
+          "photos": []
+        }
+      ]
+    }
+  ],
+  "photo_index": [
+    {
+      "filename": "01_front_yard_01.jpg",
+      "room": "Front Yard",
+      "original_filename": "IMG20260701072108.jpg",
+      "capture_time_local": "2026-07-01T07:21:08",
+      "audio_offset_seconds": 8.0
+    },
+    {
+      "filename": "01_front_yard_02.jpg",
+      "room": "Front Yard",
+      "original_filename": "IMG20260701072206.jpg",
+      "capture_time_local": "2026-07-01T07:22:06",
+      "audio_offset_seconds": 66.0
+    },
+    {
+      "filename": "02_backyard_01.jpg",
+      "room": "Backyard",
+      "original_filename": "IMG20260701072209.jpg",
+      "capture_time_local": "2026-07-01T07:22:09",
+      "audio_offset_seconds": 69.0
+    },
+    {
+      "filename": "02_backyard_02.jpg",
+      "room": "Backyard",
+      "original_filename": "IMG20260701072250.jpg",
+      "capture_time_local": "2026-07-01T07:22:50",
+      "audio_offset_seconds": 110.0
+    },
+    {
+      "filename": "03_entryway_01.jpg",
+      "room": "Entryway",
+      "original_filename": "IMG20260701072438.jpg",
+      "capture_time_local": "2026-07-01T07:24:38",
+      "audio_offset_seconds": 218.0
+    },
+    {
+      "filename": "03_entryway_02.jpg",
+      "room": "Entryway",
+      "original_filename": "IMG20260701072421.jpg",
+      "capture_time_local": "2026-07-01T07:24:21",
+      "audio_offset_seconds": 201.0
+    },
+    {
+      "filename": "03_entryway_03.jpg",
+      "room": "Entryway",
+      "original_filename": "IMG20260701072549.jpg",
+      "capture_time_local": "2026-07-01T07:25:49",
+      "audio_offset_seconds": 289.0
+    },
+    {
+      "filename": "04_front_room_01.jpg",
+      "room": "Front Room",
+      "original_filename": "IMG20260701072551.jpg",
+      "capture_time_local": "2026-07-01T07:25:51",
+      "audio_offset_seconds": 291.0
+    },
+    {
+      "filename": "04_front_room_02.jpg",
+      "room": "Front Room",
+      "original_filename": "IMG20260701072646.jpg",
+      "capture_time_local": "2026-07-01T07:26:46",
+      "audio_offset_seconds": 346.0
+    },
+    {
+      "filename": "04_front_room_03.jpg",
+      "room": "Front Room",
+      "original_filename": "IMG20260701072801.jpg",
+      "capture_time_local": "2026-07-01T07:28:01",
+      "audio_offset_seconds": 421.0
+    },
+    {
+      "filename": "05_kitchen_01.jpg",
+      "room": "Kitchen",
+      "original_filename": "IMG20260701073001.jpg",
+      "capture_time_local": "2026-07-01T07:30:01",
+      "audio_offset_seconds": 541.0
+    },
+    {
+      "filename": "05_kitchen_02.jpg",
+      "room": "Kitchen",
+      "original_filename": "IMG20260701072938.jpg",
+      "capture_time_local": "2026-07-01T07:29:38",
+      "audio_offset_seconds": 518.0
+    },
+    {
+      "filename": "05_kitchen_03.jpg",
+      "room": "Kitchen",
+      "original_filename": "IMG20260701073109.jpg",
+      "capture_time_local": "2026-07-01T07:31:09",
+      "audio_offset_seconds": 609.0
+    },
+    {
+      "filename": "05_kitchen_04.jpg",
+      "room": "Kitchen",
+      "original_filename": "IMG20260701073237.jpg",
+      "capture_time_local": "2026-07-01T07:32:37",
+      "audio_offset_seconds": 697.0
+    },
+    {
+      "filename": "06_living_room_01.jpg",
+      "room": "Living Room",
+      "original_filename": "IMG20260701073243.jpg",
+      "capture_time_local": "2026-07-01T07:32:43",
+      "audio_offset_seconds": 703.0
+    },
+    {
+      "filename": "06_living_room_02.jpg",
+      "room": "Living Room",
+      "original_filename": "IMG20260701073330.jpg",
+      "capture_time_local": "2026-07-01T07:33:30",
+      "audio_offset_seconds": 750.0
+    },
+    {
+      "filename": "06_living_room_03.jpg",
+      "room": "Living Room",
+      "original_filename": "IMG20260701073357.jpg",
+      "capture_time_local": "2026-07-01T07:33:57",
+      "audio_offset_seconds": 777.0
+    },
+    {
+      "filename": "07_hallway_01.jpg",
+      "room": "Hallway",
+      "original_filename": "IMG20260701073405.jpg",
+      "capture_time_local": "2026-07-01T07:34:05",
+      "audio_offset_seconds": 785.0
+    },
+    {
+      "filename": "07_hallway_02.jpg",
+      "room": "Hallway",
+      "original_filename": "IMG20260701073432.jpg",
+      "capture_time_local": "2026-07-01T07:34:32",
+      "audio_offset_seconds": 812.0
+    },
+    {
+      "filename": "08_bedroom_1_01.jpg",
+      "room": "Bedroom 1",
+      "original_filename": "IMG20260701073446.jpg",
+      "capture_time_local": "2026-07-01T07:34:46",
+      "audio_offset_seconds": 826.0
+    },
+    {
+      "filename": "08_bedroom_1_02.jpg",
+      "room": "Bedroom 1",
+      "original_filename": "IMG20260701073509.jpg",
+      "capture_time_local": "2026-07-01T07:35:09",
+      "audio_offset_seconds": 849.0
+    },
+    {
+      "filename": "09_master_bathroom_01.jpg",
+      "room": "Master Bathroom",
+      "original_filename": "IMG20260701073536.jpg",
+      "capture_time_local": "2026-07-01T07:35:36",
+      "audio_offset_seconds": 876.0
+    },
+    {
+      "filename": "09_master_bathroom_02.jpg",
+      "room": "Master Bathroom",
+      "original_filename": "IMG20260701073701.jpg",
+      "capture_time_local": "2026-07-01T07:37:01",
+      "audio_offset_seconds": 961.0
+    },
+    {
+      "filename": "09_master_bathroom_03.jpg",
+      "room": "Master Bathroom",
+      "original_filename": "IMG20260701073738.jpg",
+      "capture_time_local": "2026-07-01T07:37:38",
+      "audio_offset_seconds": 998.0
+    },
+    {
+      "filename": "09_master_bathroom_04.jpg",
+      "room": "Master Bathroom",
+      "original_filename": "IMG20260701073855.jpg",
+      "capture_time_local": "2026-07-01T07:38:55",
+      "audio_offset_seconds": 1075.0
+    },
+    {
+      "filename": "10_bedroom_2_01.jpg",
+      "room": "Bedroom 2",
+      "original_filename": "IMG20260701073906.jpg",
+      "capture_time_local": "2026-07-01T07:39:06",
+      "audio_offset_seconds": 1086.0
+    },
+    {
+      "filename": "10_bedroom_2_02.jpg",
+      "room": "Bedroom 2",
+      "original_filename": "IMG20260701074050.jpg",
+      "capture_time_local": "2026-07-01T07:40:50",
+      "audio_offset_seconds": 1190.0
+    },
+    {
+      "filename": "11_hall_bathroom_01.jpg",
+      "room": "Hall Bathroom",
+      "original_filename": "IMG20260701074103.jpg",
+      "capture_time_local": "2026-07-01T07:41:03",
+      "audio_offset_seconds": 1203.0
+    },
+    {
+      "filename": "11_hall_bathroom_02.jpg",
+      "room": "Hall Bathroom",
+      "original_filename": "IMG20260701074143.jpg",
+      "capture_time_local": "2026-07-01T07:41:43",
+      "audio_offset_seconds": 1243.0
+    },
+    {
+      "filename": "12_bedroom_3_01.jpg",
+      "room": "Bedroom 3",
+      "original_filename": "IMG20260701074203.jpg",
+      "capture_time_local": "2026-07-01T07:42:03",
+      "audio_offset_seconds": 1263.0
+    },
+    {
+      "filename": "12_bedroom_3_02.jpg",
+      "room": "Bedroom 3",
+      "original_filename": "IMG20260701074258.jpg",
+      "capture_time_local": "2026-07-01T07:42:58",
+      "audio_offset_seconds": 1318.0
+    },
+    {
+      "filename": "12_bedroom_3_03.jpg",
+      "room": "Bedroom 3",
+      "original_filename": "IMG20260701074436.jpg",
+      "capture_time_local": "2026-07-01T07:44:36",
+      "audio_offset_seconds": 1416.0
+    },
+    {
+      "filename": "13_garage_hallway_01.jpg",
+      "room": "Garage Hallway",
+      "original_filename": "IMG20260701074445.jpg",
+      "capture_time_local": "2026-07-01T07:44:45",
+      "audio_offset_seconds": 1425.0
+    },
+    {
+      "filename": "14_laundry_01.jpg",
+      "room": "Laundry",
+      "original_filename": "IMG20260701074511.jpg",
+      "capture_time_local": "2026-07-01T07:45:11",
+      "audio_offset_seconds": 1451.0
+    },
+    {
+      "filename": "14_laundry_02.jpg",
+      "room": "Laundry",
+      "original_filename": "IMG20260701074548.jpg",
+      "capture_time_local": "2026-07-01T07:45:48",
+      "audio_offset_seconds": 1488.0
+    },
+    {
+      "filename": "15_garage_01.jpg",
+      "room": "Garage",
+      "original_filename": "IMG20260701074600.jpg",
+      "capture_time_local": "2026-07-01T07:46:00",
+      "audio_offset_seconds": 1500.0
+    },
+    {
+      "filename": "15_garage_02.jpg",
+      "room": "Garage",
+      "original_filename": "IMG20260701074652.jpg",
+      "capture_time_local": "2026-07-01T07:46:52",
+      "audio_offset_seconds": 1552.0
+    },
+    {
+      "filename": "16_attic_01.jpg",
+      "room": "Attic",
+      "original_filename": "IMG20260701074654.jpg",
+      "capture_time_local": "2026-07-01T07:46:54",
+      "audio_offset_seconds": 1554.0
+    },
+    {
+      "filename": "16_attic_02.jpg",
+      "room": "Attic",
+      "original_filename": "IMG20260701074718.jpg",
+      "capture_time_local": "2026-07-01T07:47:18",
+      "audio_offset_seconds": 1578.0
+    }
+  ],
+  "excluded_from_source": [
+    "Primary Contact name",
+    "Lockbox / Access Codes / entry / gate code fields (values not copied)",
+    "Internal Comments column",
+    "Owner quotes and free-text comments in Approvals (status normalized only)",
+    "Gallery album links and Drive video/vendor file links",
+    "~10 GB walkthrough video"
+  ],
+  "tag_legend": {
+    "PRO": "Report / proposal intro",
+    "SEC": "Room/section header with audio timestamp range",
+    "NRM": "Normal repair / maintenance item",
+    "FNS": "Finish (paint/texture) related",
+    "RVW": "Review / higher-priority review item",
+    "NOT": "Note only (no charge)",
+    "CLN": "Cleaning",
+    "VEN": "Vendor-related"
+  },
+  "approval_values": [
+    "Approved",
+    "Denied",
+    "Optional",
+    "Recommended",
+    "TBD"
+  ]
+}
